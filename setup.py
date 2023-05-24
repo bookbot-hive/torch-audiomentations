@@ -42,6 +42,7 @@ setup(
         "torch>=1.7.0",
         "torchaudio>=0.7.0",
         "torch-pitch-shift>=1.2.2",
+        "torch-time-stretch>=1.0.3",
     ],
     extras_require={"extras": ["PyYAML"]},
     python_requires=">=3.6",

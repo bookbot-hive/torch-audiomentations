@@ -17,6 +17,7 @@ from .augmentations.shift import Shift
 from .augmentations.shuffle_channels import ShuffleChannels
 from .augmentations.splice_out import SpliceOut
 from .augmentations.time_inversion import TimeInversion
+from .augmentations.time_stretch import TimeStretch
 from .core.composition import Compose, SomeOf, OneOf
 from .utils.config import from_dict, from_yaml
 from .utils.convolution import convolve
